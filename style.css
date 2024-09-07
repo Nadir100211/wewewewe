@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.d{
+    display: flex;
+    margin-top: 20px;
+margin-left: 200px;
+
+}
+i{
+    margin: 10px;
+}
+select{
+    height: 80%;
+    width: 150px;
+    border-radius: 5px  ;
+}
+.nadir{
+    color: white;
+     background-color: orange;
+    border-color: orange;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+}
+.nadir:hover{
+    color: black;
+    background-color: white;
+    transition:  1s;
+}
+.orenge{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.orenge:hover{
+    color: orange;
+    transition: 1s;
+}
+.b{
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+.pio{   
+background: url(https://i.pinimg.com/originals/b0/55/d9/b055d9200d45488b19d439ec33614f63.jpg);
+object-fit: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 720px;
+background-size: cover;
+width: 100vw;
+margin-top: 20px;
+color: white;
+}
+.pio1{
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+}
+.white{
+    color: white;
+    font-size: 50px;
+}
+.black{
+    color: black;
+    background-color: orange;
+    border-radius: 10px;
+}
+.val{
+        color: orange;
+        background-color: black;
+        border: black;
+        border-radius: 5px;
+        width: 140px;
+        height: 50px;
+}
+.val:hover{
+    color: black;
+    background-color: orange;
+    border: orange;
+    transition: 1s;
+}
+.hor{
+    width: 100vw;
+    height: 20vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.zele{
+    font-size: 40px;
+    letter-spacing: -2px;
+}
+.ka{
+    width: 370px;
+    height: 300px;
+    margin:50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.ka:hover{
+    box-shadow: 10px 10px 10px 10px grey; 
+    transition: 0.5s;
+}
+.har{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.am{
+    display:flex ;
+    text-align: center;
+}
+.w{
+    width:33vw;
+    height: 350px;
+    position: relative; 
+}
+.pon{
+background-color: transparent;
+position: absolute;
+width: 705px;
+height: 350px;
+color: transparent;
+display: flex;
+justify-content: center;    
+align-items: center;
+text-align: center;
+}
+.pon:hover{
+    display: block;
+    background-color: rgb(250, 183, 0, 0.8);
+    position: absolute;
+    transition: 1s;
+    color: black;
+}
+.flex{
+    display: flex;
+}
+.po{
+    letter-spacing: -2px;
+    font-size: 30px;
+}
+.pa{
+    letter-spacing: 2px;
+    font-size: large;
+}
+.f{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 350px;
+}
+.kad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lan{
+    background-color: transparent;
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.lan:hover{
+    display: block;
+    background-color: rgb(250, 183, 0, 0.8);
+    position: absolute;
+    transition: 1s;
+}
+.ponji{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.xali{
+margin: 75px;
+}
+.wert{
+    letter-spacing: -2px;
+}
+.pcs{
+    background-color: #FAB700;
+    height: 331px;
+    width: 98.8vw;
+    padding: 20px 100px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+    align-items: center;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    display: flex;
+}
+.pop{
+    letter-spacing: -2px;
+    font-size: 30px;
+    color: grey;
+}
+.font{
+    font-size: 65px;
+}
+.pos{
+    width: 450px;
+    height: 250px;
+    border: solid 1px rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+    padding: 40px;
+    font-size: 10px;
+    transition: 0.4s;
+    margin: 30px;
+}
+.pi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    font-size: 40px
+}
+.pw{
+    font-size: 20px;
+}
+.pe{
+    font-size: 20px;
+    color: grey;
+}
+.pos:hover{
+    box-shadow: 0px 0px 10px 6px rgb(190, 186, 186);
+    .pw{
+        color: #FAB700;
+        transition: 0.3s;
+    }
+}
+.abv{
+    background-color: rgba(245, 250, 236, 0.979);
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    height: 450px;
+}
+.uy{
+    border: rgb(202, 202, 202) solid 1px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 600px;
+    transition: 0.5s;
+    display: flex;
+}
+.uy:hover{
+    box-shadow: 0px 0px 10px 6px rgb(190, 186, 186);
+}
+.pu{
+    width: 17%;
+}
+.pwe{
+    font-size: 20px;
+    color: grey;
+}
+.posd{
+    margin-bottom: 100px;
+    margin-left: 90px;
+}
+.qwe{
+    background: url(https://preview.colorlib.com/theme/builder/img/testimonials/testi-1.png.webp);
+    width: 15%;
+    height: 42.5%;
+}
+.qwa{
+    background: url(https://preview.colorlib.com/theme/builder/img/testimonials/testi-2.png.webp);
+    width: 15%;
+    height: 42.5%;  
+}
+.mar{
+    display: flex;
+    justify-content: center;
+}
+.mas{
+    margin: 50px;
+    width: 7%;
+    color: grey ;
+}
+.big{
+    width: 100vw;
+    height: 850px;
+    background-color: #222;
+}
+.goz{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+.pwea{
+    font-size: 20px;
+    color: grey;
+}
+.opr{
+    color:#FAB700 ;
+    font-size: 30px;
+}
+.sas{
+    margin-bottom: 30px;
+}
+.aas{
+    width: 600px;
+    height: 50px;
+    border-radius: 50px;
+}
+input::placeholder{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.asasa{
+    margin-bottom: 70px;
+}
+span{
+    color: #FAB700;
+}
+.fkdk{
+    margin-right: 275px;
+    margin-top: 100px;
+}
+.asz{
+    color: white;
+    background-color: #111;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+}
+.asasaa{
+    margin-right: 300px;
+    margin-top: 75px;
+}
+.asasas{
+    margin-right: 10px;
+}
